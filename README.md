@@ -1,1 +1,0 @@
-# egoistos.github.io
