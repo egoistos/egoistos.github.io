@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+</style>
+  <meta charset="utf-8">
+  <title>Лаб №1</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Template Name: Instant
+    Template URL: https://templatemag.com/instant-bootstrap-personal-template/
+    Author: TemplateMag.com
+    License: https://templatemag.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!-- Static navbar -->
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand" href="index.html">INSTANT</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Главная</a></li>
+          <li class="active"><a href="about.html">Обо мне</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </div>
+
+
+  <div id="workwrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-lg-offset-3">
+          <h1>Лабораторная работа №1</h4>
+        </div>
+      </div>
+    </div>
+    <!-- /container -->
+  </div>
+
+  <section id="works"></section>
+  <div class="container">
+    <div class="row mt mb">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h4>UML Use Case</h4>
+      </div>
+      <div class="col-lg-10 col-lg-offset-1 mt">
+        <img class="img-responsive" src="img/UML-Use-Case.png">
+      </div>
+	  <br>
+	  <p align="left"><b>1. Идентификатор прецедента</b></p>
+	  <p align="left">Система защиты данных</p>
+	  
+	  <p align="left"><b>2. Название прецедента</b></p>
+	  <p align="left">Шифрование сообщений</p>
+	  
+	  <p align="left"><b>3. Контекст </b></p>
+	  <p align="left">Система управления проектами</p>
+	  
+	  <p align="left"><b>4. Участники и цели </b></p>
+	  <table style="width:100%">
+	   <tr>
+	    <th>Участник</th>
+	    <th>Категория</th> 
+	    <th>Цель </th>
+	   </tr>
+	   
+	   <tr>
+        <td>Разработчик</td>
+        <td>Основной</td> 
+        <td>Разработать систему защиты данных</td>
+       </tr>
+	   
+	   <tr>
+        <td>Отправитель сообщения</td>
+        <td>Внешний</td> 
+        <td>Отправить зашифрованное сообщение</td>
+       </tr>
+	   
+	   <tr>
+        <td>Получатель сообщения</td>
+        <td>Внешний</td> 
+        <td>Получить расшифрованное сообщение</td>
+       </tr>
+	   
+	   <tr>
+        <td>Среда разработки системы</td>
+        <td>Инструмент</td> 
+        <td>Предоставить инструменты разработки системы</td>
+       </tr>
+	   
+	   <tr>
+        <td>Модуль шифрования</td>
+        <td>Инструмент</td> 
+        <td>Зашифровать данные</td>
+       </tr>
+	   
+	   <tr>
+        <td>Модуль расшифровывания</td>
+        <td>Инструмент</td> 
+        <td>Расшифровать данные</td>
+       </tr>
+	  </table>
+	  
+	  <br>
+	  
+	  <p align="left"><b>5. Предусловия  </b></p>
+	  <ul>
+	  <li align="left">Разработан алгоритм шифрования</li>
+	  <li align="left">Разработан алгоритм расшифровывания</li>
+	  <li align="left">Установлена связь между отправителем и получателем сообщения</li>
+	  </ul>
+	  
+	  <p align="left"><b>6. Постусловия </b></p>
+	  <ul>
+	  <li align="left">Сообщение зашифровано и оправлено</li>
+	  <li align="left">Сообщение получено и расшифровано</li>
+	  </ul>
+	  
+	  <p align="left"><b>7. Основной поток </b></p>
+	  <table style="width:100%">
+	   <tr>
+	    <th>Участник</th>
+	    <th>Действие</th> 
+	    <th>Ожидаемый результат</th>
+	   </tr>
+	   
+	   <tr>
+        <td>Разработчик</td>
+        <td>Создает систему защиты данных</td> 
+        <td>Система защиты данных создана, протестирована и готова к использованию</td>
+       </tr>
+	   
+	   <tr>
+        <td>Отправитель сообщения</td>
+        <td>Оправляет зашифрованное сообщение</td> 
+        <td>Зашифрованное сообщение оправлено успешно</td>
+       </tr>
+	   
+	   <tr>
+        <td>Получатель сообщения</td>
+        <td>Получает зашифрованное сообщение</td> 
+        <td>Сообщение расшифровано и прочитано</td>
+       </tr>
+	  </table>
+
+	  <br>
+	  
+	  <p align="left"><b>8. Исключения </b></p>
+	  <ul>
+	  <li align="left">Сообщение не было доставлено</li>
+	  <li align="left">Сообщение не было зашифровано</li>
+	  <li align="left">Сообщение не было расшифровано</li>
+	  </ul>
+	  
+	  <p align="left"><b>9. Альтернативы </b></p>
+	  <ul>
+	  <li align="left">Повторная отправка сообщения при ошибке</li>
+	  <li align="left">Проверка зашифрованного сообщения перед отправкой</li>
+	  <li align="left">Проверка ключей шифрования и расшифровывания в ходе работы системы</li>
+	  </ul>
+    </div>
+  </div>
+
+  <div id="social">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-2">
+          <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="copyrights">
+    <div class="container">
+      <p>
+        &copy; Copyrights <strong>Instant</strong>. All Rights Reserved
+      </p>
+      <div class="credits">
+        <!--
+          You are NOT allowed to delete the credit link to TemplateMag with free version.
+          You can delete the credit link only if you bought the pro version.
+          Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/instant-bootstrap-personal-template/
+          Licensing information: https://templatemag.com/license/
+        -->
+        Created with Instant template by <a href="https://templatemag.com/">TemplateMag</a>
+      </div>
+    </div>
+  </div>
+  <!-- / copyrights -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
