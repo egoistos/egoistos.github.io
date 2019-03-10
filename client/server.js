@@ -9,8 +9,8 @@
     const app = express();
 
     const chatkit = new Chatkit.default({
-      instanceLocator: v1:us1:d4a9ab18-45ec-4a50-96d7-93ce3a1102b1,
-      key: e0d62e20-7ba1-4e09-aafc-6ec2192ee0d0:5yMpW1S3FpLpshUud/i/r/nHMIH6qeQeDBrfe0m0CiQ=,
+      instanceLocator: "v1:us1:d4a9ab18-45ec-4a50-96d7-93ce3a1102b1",
+      key: "e0d62e20-7ba1-4e09-aafc-6ec2192ee0d0:5yMpW1S3FpLpshUud/i/r/nHMIH6qeQeDBrfe0m0CiQ=",
     });
 
     app.use(cors());
