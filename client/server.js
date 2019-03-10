@@ -1,6 +1,6 @@
 // server.js
 
-    require('dotenv').config({ path: 'variables.env' });
+    require('dotenv').config({ path: 'client/variables.env' });
 
     const express = require('express');
     const bodyParser = require('body-parser');
